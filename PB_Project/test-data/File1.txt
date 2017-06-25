@@ -1,9 +1,0 @@
-{
-    "Name": "rakesh@gmail.com",
-    "Author": "rakesh",
-    "Company List": [
-        "Compnay: eBay",
-        "Compnay: Paypal",
-        "Compnay: Google"
-    ]
-}
