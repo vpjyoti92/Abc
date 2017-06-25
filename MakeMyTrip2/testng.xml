@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="deviceName" value="192.168.145.104:5555"></parameter>
+		<parameter name="browserName" value="Android"></parameter>
+		<parameter name="versionName" value="4.2.2"></parameter>
+		<parameter name="platformName" value="Android"></parameter>
+		<parameter name="app" value="C:\Users\You\Downloads\MakeMyTrip Flights Hotels Cabs_v5.6.9_apkpure.com.apk"></parameter>
+		<!-- <parameter name="appPackageName" value="com.makemytrip"></parameter>
+		<parameter name="appActivityName" value="com.mmt.travel.app.home.ui.ShowGrowthHack"></parameter> -->
+		<parameter name="url" value="http://127.0.0.1:4723/wd/hub"></parameter>
+		<parameter name="configpath"
+			value="G:\WorkSpace\MakeMyTrip\ObjectMap.properties"></parameter>
+	<test name="Test">
+		<classes>
+		 <!--  <class name="testScripts.ValidateFlightBooking" /> -->
+ 		  <class name="testScripts.ValidateHotelBooking" />
+			<!-- <class name="testScripts.ValidateHolidayBooking"/> -->
+		
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="app" value="C:\Users\You\Downloads\MakeMyTrip Flights Hotels Cabs_v5.6.9_apkpure.com.apk"/>
+  <parameter name="browserName" value="Android"/>
+  <parameter name="configpath" value="G:\WorkSpace\MakeMyTrip\ObjectMap.properties"/>
+  <parameter name="versionName" value="4.2.2"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="192.168.145.104:5555"/>
+  <parameter name="url" value="http://127.0.0.1:4723/wd/hub"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="testScripts.ValidateHotelBooking">
+        <methods>
+          <include name="hotelBooking"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- testScripts.ValidateHotelBooking -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
